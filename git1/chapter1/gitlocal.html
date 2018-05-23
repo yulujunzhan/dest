@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>git本地仓库 | My Awesome Book</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../chapter1/gitbranch.html" />
+    
+    
+    <link rel="prev" href="../chapter1/base.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="1.8" data-chapter-title="git本地仓库" data-filepath="chapter1/gitlocal.md" data-basepath=".." data-revision="Mon Feb 13 2017 20:21:45 GMT+0800 (中国标准时间)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="chapter1.html">
+            
+                
+                    <a href="../chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        git
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="chapter1/vcs.html">
+            
+                
+                    <a href="../chapter1/vcs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        版本控制的分类
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter1/shell.html">
+            
+                
+                    <a href="../chapter1/shell.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        shell
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter1/cmd.html">
+            
+                
+                    <a href="../chapter1/cmd.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        bash命令
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="chapter1/vi.html">
+            
+                
+                    <a href="../chapter1/vi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        vi编辑器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="chapter1/ssh.html">
+            
+                
+                    <a href="../chapter1/ssh.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        ssh--了解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="chapter1/git.html">
+            
+                
+                    <a href="../chapter1/git.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        git的安装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="chapter1/base.html">
+            
+                
+                    <a href="../chapter1/base.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        git的原理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="chapter1/gitlocal.html">
+            
+                
+                    <a href="../chapter1/gitlocal.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        git本地仓库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="chapter1/gitbranch.html">
+            
+                
+                    <a href="../chapter1/gitbranch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        gitb分支
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >My Awesome Book</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="3git&#x672C;&#x5730;&#x4ED3;&#x5E93;">3.Git&#x672C;&#x5730;&#x4ED3;&#x5E93;</h3>
+<p>Git&#x672C;&#x5730;&#x4ED3;&#x5E93;&#x6307;&#x7684;&#x662F;&#x5F00;&#x53D1;&#x8005;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;&#x7684;&#x4ED3;&#x5E93;&#x3002;</p>
+<blockquote>
+<p>&#x547D;&#x4EE4;&#x884C;&#x65B9;&#x5F0F;&#xFF1A;&#x4EFB;&#x610F;&#x76EE;&#x5F55;&#xFF08;&#x5EFA;&#x8BAE;&#x5F00;&#x53D1;&#x6839;&#x76EE;&#x5F55;&#xFF09;&#x53F3;&#x952E; &gt; Git Bash Here</p>
+</blockquote>
+<ol>
+<li><p>&#x914D;&#x7F6E;&#x7528;&#x6237; git config --global &#x5176;&#x4ED6;</p>
+<blockquote>
+<p>&#x914D;&#x7F6E;&#x7528;&#x6237;&#x7684;&#x610F;&#x4E49;&#x5728;&#x4E8E;&#x8BB0;&#x5F55;&#x5F00;&#x53D1;&#x8005;&#x4FE1;&#x606F;&#xFF0C;&#x4EE5;&#x4FBF;&#x5728;&#x7248;&#x672C;&#x63A7;&#x5236;&#x8BB0;&#x5F55;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x64CD;&#x4F5C;&#x884C;&#x4E3A;</p>
+</blockquote>
+<pre><code> git config --global user.name &quot;&#x81EA;&#x5DF2;&#x7684;&#x540D;&#x5B57;&quot;
+ git config --global user.email &quot;&#x81EA;&#x5DF2;&#x7684;&#x90AE;&#x7BB1;&#x5730;&#x5740;&quot;
+ --global &#x914D;&#x7F6E;&#x5F53;&#x524D;&#x7528;&#x6237;&#x6240;&#x6709;&#x4ED3;&#x5E93;
+ &#x6CE8;&#xFF1A;&#x914D;&#x7F6E;&#x7528;&#x6237;&#x53EA;&#x9700;&#x8981;&#x6267;&#x884C;1&#x6B21;&#xFF0C;&#x53EF;&#x4EE5;&#x91CD;&#x590D;&#x4F7F;&#x7528;&#x3002;
+</code></pre></li>
+<li><p>&#x521D;&#x59CB;&#x5316;&#x4ED3;&#x5E93;  git init</p>
+<blockquote>
+<p>&#x6211;&#x4EEC;&#x5982;&#x679C;&#x60F3;&#x8981;&#x5229;&#x7528;git&#x8FDB;&#x884C;&#x7248;&#x672C;&#x63A7;&#x5236;&#xFF0C;&#x9700;&#x8981;&#x5C06;&#x73B0;&#x6709;&#x9879;&#x76EE;&#x521D;&#x59CB;&#x5316;&#x4E3A;&#x4E00;&#x4E2A;&#x4ED3;&#x5E93;&#xFF0C;&#x6216;&#x8005;&#x5C06;&#x4E00;&#x4E2A;&#x5DF2;&#x6709;&#x7684;&#x4F7F;&#x7528;git&#x8FDB;&#x884C;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7684;&#x4ED3;&#x5E93;&#x514B;&#x9686;&#x5230;&#x672C;&#x5730;&#x3002;</p>
+</blockquote>
+<pre><code> git init&#x4F1A;&#x5728;&#x5F53;&#x524D;&#x9879;&#x76EE;&#x76EE;&#x5F55;&#x4E2D;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x540D;&#x4E3A;.git&#x7684;&#x9690;&#x85CF;&#x76EE;&#x5F55;&#xFF0C;&#x8FD9;&#x4E2A;&#x76EE;&#x5F55;&#x5305;&#x542B;&#x4E86;&#x6682;&#x5B58;&#x533A;&#x548C;&#x4ED3;&#x5E93;&#x4E24;&#x4E2A;&#x533A;&#x57DF;&#xFF0C;&#x6709;&#x4E86;&#x8FD9;&#x4E2A;&#x9690;&#x85CF;&#x76EE;&#x5F55;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;git&#x6765;&#x7BA1;&#x7406;&#x9879;&#x76EE;&#x4E86;&#xFF0C;&#x901A;&#x8FC7;ls  -al &#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x3002;
+</code></pre></li>
+<li><p>&#x67E5;&#x770B;&#x6587;&#x4EF6;&#x72B6;&#x6001; git status</p>
+<blockquote>
+<p>&#x521D;&#x59CB;&#x5316;&#x4ED3;&#x5E93;&#x540E;&#x4FBF;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x5F00;&#x53D1;&#x4E86;&#xFF0C;&#x8FDB;&#x5165;&#x5230;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x597D;&#x5E76;&#x521D;&#x59CB;&#x4E3A;&#x4ED3;&#x5E93;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x6DFB;&#x52A0;&#x6211;&#x4EEC;&#x5F00;&#x53D1;&#x9700;&#x8981;&#x7684;&#x6587;&#x4EF6;&#x3002;
+<strong>&#x6CE8;&#xFF1A;git&#x4F1A;&#x5FFD;&#x7565;&#x7A7A;&#x7684;&#x76EE;&#x5F55;</strong></p>
+</blockquote>
+</li>
+<li><p>&#x6DFB;&#x52A0;&#x6587;&#x4EF6;&#x5230;&#x6682;&#x5B58;&#x533A; git add file</p>
+<blockquote>
+<p>&#x53EF;&#x4EE5;&#x5C06;&#x4E00;&#x4E2A;&#x672A;&#x8FFD;&#x8E2A;&#x7684;,&#x5DF2;&#x4FEE;&#x6539;&#x7684;&#x6587;&#x4EF6;&#x653E;&#x5165;&#x6682;&#x5B58;&#x533A;</p>
+<blockquote>
+<p><strong>git add  *&#x5C06;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x6240;&#x6709;&#x5185;&#x5BB9;&#x63D0;&#x4EA4;&#x5230;&#x6682;&#x5B58;&#x533A;</strong></p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>&#x5C06;&#x6682;&#x5B58;&#x533A;&#x7684;&#x5185;&#x5BB9;&#x653E;&#x5165;&#x672C;&#x5730;&#x4E3B;&#x4ED3;&#x5E93; git commit -m &#x5907;&#x6CE8;&#x7684;&#x4FE1;&#x606F;</p>
+<blockquote>
+<p>&#x5982;&#x679C;&#x4E0D;&#x8F93;&#x5165;&#x5907;&#x6CE8;&#x4FE1;&#x606F;&#x4F1A;&#x63D0;&#x793A;&#x4E00;&#x4E2A;vi&#x7F16;&#x8F91;&#x5668;&#xFF0C;&#x5728;vi&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x63D0;&#x793A;&#x8F93;&#x5165;&#x5907;&#x6CE8;&#x4FE1;&#x606F;</p>
+<blockquote>
+<p>&#x6BCF;&#x4E00;&#x6B21;&#x63D0;&#x4EA4;&#x5230;&#x672C;&#x5730;&#x4ED3;&#x5E93;&#x90FD;&#x5FC5;&#x987B;&#x8F93;&#x5165;&#x5907;&#x6CE8;&#x4FE1;&#x606F;</p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>&#x67E5;&#x770B;&#x63D0;&#x4EA4;&#x5386;&#x53F2; git log</p>
+<blockquote>
+<p>&#x663E;&#x793A;&#x7ED3;&#x679C;&#x6709;&#xFF1A;&#x67D0;&#x4E00;&#x6B21;&#x63D0;&#x4EA4;&#x7684;&#x552F;&#x4E00;&#x6807;&#x8BB0;,&#x63D0;&#x4EA4;&#x4EBA;&#x7684;&#x4FE1;&#x606F;,&#x63D0;&#x4EA4;&#x7684;&#x65E5;&#x671F;</p>
+</blockquote>
+</li>
+<li><p>&#x6682;&#x5B58;&#x533A;&#x68C0;&#x51FA;,git checkout &#x6587;&#x4EF6;&#x540D;</p>
+<blockquote>
+<p>&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5DF2;&#x7ECF;&#x5B58;&#x653E;&#x5230;&#x6682;&#x5B58;&#x533A;,&#x5E0C;&#x671B;&#x4ECE;&#x6682;&#x5B58;&#x533A;&#x6062;&#x590D;&#x5230;&#x4FEE;&#x6539;&#x524D;&#x7684;&#x72B6;&#x6001;</p>
+<blockquote>
+<p>&#x5C06;&#x6587;&#x4EF6;&#x4ECE;&#x6682;&#x5B58;&#x533A;&#x53D6;&#x51FA;,&#x66FF;&#x6362;&#x5F53;&#x524D;&#x7684;&#x672C;&#x5730;&#x6587;&#x4EF6;</p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>&#x6682;&#x5B58;&#x533A;&#x68C0;&#x51FA; git reset HEND &#x6587;&#x4EF6;&#x540D;</p>
+<blockquote>
+<p>&#x5C06;&#x5DF2;&#x7ECF;&#x6DFB;&#x52A0;&#x5230;&#x6682;&#x5B58;&#x533A;&#x7684;,&#x5E76;&#x4E14;&#x8BE5;&#x6587;&#x4EF6;&#x6CA1;&#x6709;&#x88AB;&#x4FEE;&#x6539;&#x8FC7;&#x6587;&#x4EF6;,&#x53EF;&#x4EE5;&#x4ECE;&#x6682;&#x5B58;&#x533A;&#x53D6;&#x51FA;</p>
+<blockquote>
+<p>&#x53EA;&#x662F;&#x5C06;&#x6587;&#x4EF6;&#x4ECE;&#x6682;&#x5B58;&#x533A;&#x53D6;&#x51FA;,&#x4F46;&#x662F;&#x5E76;&#x4E0D;&#x4F7F;&#x7528;</p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>&#x672C;&#x5730;&#x4ED3;&#x5E93;&#x68C0;&#x51FA; git reset --hard &#x63D0;&#x4EA4;&#x7684;&#x7248;&#x672C;&#x53F7;</p>
+<blockquote>
+<p>&#x5C06;&#x6587;&#x4EF6;&#x4ECE;&#x672C;&#x5730;&#x4ED3;&#x5E93;&#x4E2D;&#x6062;&#x590D;,&#x53D6;&#x51FA;&#x4ED3;&#x5E93;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#x66FF;&#x6362;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x6587;&#x4EF6;</p>
+<blockquote>
+<p>&#x56DE;&#x9000;&#x4E4B;&#x540E;,&#x8BE5;&#x7248;&#x672C;&#x53F7;&#x4E4B;&#x540E;&#x7684;&#x63D0;&#x4EA4;&#x7248;&#x5C31;&#x5931;&#x6548;&#x4E86;</p>
+<blockquote>
+<p>&#x8FD9;&#x79CD;&#x64CD;&#x4F5C;&#x662F;&#x4E0D;&#x53EF;&#x9006;&#x7684;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<p><img src="../assets/git.png" alt=""></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../chapter1/base.html" class="navigation navigation-prev " aria-label="Previous page: git的原理"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../chapter1/gitbranch.html" class="navigation navigation-next " aria-label="Next page: gitb分支"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

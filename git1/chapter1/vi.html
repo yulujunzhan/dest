@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>vi编辑器 | My Awesome Book</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../chapter1/ssh.html" />
+    
+    
+    <link rel="prev" href="../chapter1/cmd.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="1.4" data-chapter-title="vi编辑器" data-filepath="chapter1/vi.md" data-basepath=".." data-revision="Mon Feb 13 2017 20:21:45 GMT+0800 (中国标准时间)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="chapter1.html">
+            
+                
+                    <a href="../chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        git
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="chapter1/vcs.html">
+            
+                
+                    <a href="../chapter1/vcs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        版本控制的分类
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter1/shell.html">
+            
+                
+                    <a href="../chapter1/shell.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        shell
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter1/cmd.html">
+            
+                
+                    <a href="../chapter1/cmd.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        bash命令
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="chapter1/vi.html">
+            
+                
+                    <a href="../chapter1/vi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        vi编辑器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="chapter1/ssh.html">
+            
+                
+                    <a href="../chapter1/ssh.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        ssh--了解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="chapter1/git.html">
+            
+                
+                    <a href="../chapter1/git.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        git的安装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="chapter1/base.html">
+            
+                
+                    <a href="../chapter1/base.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        git的原理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="chapter1/gitlocal.html">
+            
+                
+                    <a href="../chapter1/gitlocal.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        git本地仓库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="chapter1/gitbranch.html">
+            
+                
+                    <a href="../chapter1/gitbranch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        gitb分支
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >My Awesome Book</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="vi&#x7F16;&#x8F91;&#x5668;vim">vi&#x7F16;&#x8F91;&#x5668;(vim)</h2>
+<blockquote>
+<p>&#x662F;linux&#x4E0B;&#x7684;&#x6807;&#x914D;</p>
+<blockquote>
+<p>&#x7C7B;&#x4F3C;&#x4E8E;window&#x4E0B;&#x7684;&#x8BB0;&#x4E8B;&#x672C;,&#x53EF;&#x4EE5;&#x521B;&#x5EFA;,&#x7F16;&#x8F91;&#x6587;&#x4EF6;,&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x968F;&#x7740;&#x7CFB;&#x7EDF;&#x5B89;&#x88C5;&#x8D77;&#x6765;&#x7684;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x8F6F;&#x4EF6;</p>
+</blockquote>
+</blockquote>
+<p>vi&#x7F16;&#x8F91;&#x5668;&#x662F;Linux&#x4E0B;&#x7684;&#x6807;&#x914D;&#xFF0C;&#x901A;&#x8FC7;&#x5B83;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x3001;&#x7F16;&#x8F91;&#x6587;&#x4EF6;&#x3002;&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x968F;&#x7CFB;&#x7EDF;&#x4E00;&#x8D77;&#x5B89;&#x88C5;&#x7684;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x8F6F;&#x4EF6;&#x3002;</p>
+<h4 id="1&#x4E09;&#x79CD;&#x6A21;&#x5F0F;">1.&#x4E09;&#x79CD;&#x6A21;&#x5F0F;</h4>
+<blockquote>
+<p>&#x547D;&#x4EE4;&#x6A21;&#x5F0F;&#x3001;&#x63D2;&#x5165;/&#x8F93;&#x5165;/&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#x3001;&#x5E95;&#x884C;&#x6A21;&#x5F0F;&#xFF0C;&#x6BCF;&#x79CD;&#x6A21;&#x5F0F;&#x4E0B;&#x7528;&#x6237;&#x6240;&#x80FD;&#x8FDB;&#x884C;&#x7684;&#x64CD;&#x4F5C;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
+<blockquote>
+<p>&#x5F53;&#x6211;&#x4EEC;&#x5904;&#x5728;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x548C;&#x6211;&#x4EEC;&#x5728;Windows&#x7F16;&#x8F91;&#x5668;&#x7684;&#x4F7F;&#x7528;&#x76F8;&#x4F3C;&#x3002;</p>
+</blockquote>
+</blockquote>
+<h5 id="&#x4E09;&#x79CD;&#x6A21;&#x5F0F;&#x7684;&#x5207;&#x6362;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;">&#x4E09;&#x79CD;&#x6A21;&#x5F0F;&#x7684;&#x5207;&#x6362;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;</h5>
+<p><img src="../assets/img1.png" alt=""></p>
+<p>&#x901A;&#x8FC7;&#x4E0A;&#x56FE;&#x6211;&#x4EEC;&#x53D1;&#x73B0;&#xFF0C;&#x8F93;&#x5165;&#x6A21;&#x5F0F;&#x662F;&#x4E0D;&#x80FD;&#x76F4;&#x63A5;&#x5207;&#x6362;&#x5230;&#x672B;&#x884C;&#x6A21;&#x5F0F;&#x7684;&#xFF0C;&#x5FC5;&#x987B;&#x8981;&#x5148;&#x5207;&#x56DE;&#x5230;&#x547D;&#x4EE4;&#x6A21;&#x5F0F;&#xFF08;&#x6309;ESC&#x952E;&#xFF09;</p>
+<h4 id="2-&#x4F7F;&#x7528;vivim&#x7F16;&#x8F91;&#x5668;">2. &#x4F7F;&#x7528;vi/vim&#x7F16;&#x8F91;&#x5668;</h4>
+<pre><code>a) &#x6253;&#x5F00;/&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#xFF0C; vi &#x6587;&#x4EF6;&#x8DEF;&#x5F84;
+
+b) &#x5E95;&#x884C;&#x6A21;&#x5F0F; :w&#x4FDD;&#x5B58;&#xFF0C;:w filenme&#x53E6;&#x5B58;&#x4E3A;
+c) &#x5E95;&#x884C;&#x6A21;&#x5F0F; :q&#x9000;&#x51FA;
+d) &#x5E95;&#x884C;&#x6A21;&#x5F0F; :wq&#x4FDD;&#x5B58;&#x5E76;&#x9000;&#x51FA;
+e) &#x5E95;&#x884C;&#x6A21;&#x5F0F; :e! &#x64A4;&#x9500;&#x66F4;&#x6539;&#xFF0C;&#x8FD4;&#x56DE;&#x5230;&#x4E0A;&#x4E00;&#x6B21;&#x4FDD;&#x5B58;&#x7684;&#x72B6;&#x6001;
+f) &#x5E95;&#x884C;&#x6A21;&#x5F0F; :q! &#x4E0D;&#x4FDD;&#x5B58;&#x5F3A;&#x5236;&#x9000;&#x51FA;
+g) &#x5E95;&#x884C;&#x6A21;&#x5F0F; :set nu &#x8BBE;&#x7F6E;&#x884C;&#x53F7;
+
+h) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; ZZ&#xFF08;&#x5927;&#x5199;&#xFF09;&#x4FDD;&#x5B58;&#x5E76;&#x9000;&#x51FA;
+i) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; u&#x8F99;&#x9500;&#x64CD;&#x4F5C;&#xFF0C;&#x53EF;&#x591A;&#x6B21;&#x4F7F;&#x7528;
+j) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; dd&#x5220;&#x9664;&#x5F53;&#x524D;&#x884C;
+k) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; yy&#x590D;&#x5236;&#x5F53;&#x524D;&#x884C;
+l) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; p &#x7C98;&#x8D34;&#x5185;&#x5BB9;
+m) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; ctrl+f&#x5411;&#x524D;&#x7FFB;&#x9875;
+n) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; ctrl+b&#x5411;&#x540E;&#x7FFB;&#x9875;
+
+o) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; i&#x8FDB;&#x5165;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#xFF0C;&#x5F53;&#x524D;&#x5149;&#x6807;&#x5904;&#x63D2;&#x5165;
+p) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; a&#x8FDB;&#x5165;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#xFF0C;&#x5F53;&#x524D;&#x5149;&#x6807;&#x540E;&#x63D2;&#x5165;
+q) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; A&#x8FDB;&#x5165;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#xFF0C;&#x5149;&#x6807;&#x79FB;&#x52A8;&#x5230;&#x884C;&#x5C3E;
+r) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; o&#x8FDB;&#x5165;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#xFF0C;&#x5F53;&#x524D;&#x884C;&#x4E0B;&#x9762;&#x63D2;&#x5165;&#x65B0;&#x884C;
+s) &#x547D;&#x4EE4;&#x6A21;&#x5F0F; O&#x8FDB;&#x5165;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#xFF0C;&#x5F53;&#x524D;&#x884C;&#x4E0A;&#x9762;&#x63D2;&#x5165;&#x65B0;&#x884C;
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../chapter1/cmd.html" class="navigation navigation-prev " aria-label="Previous page: bash命令"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../chapter1/ssh.html" class="navigation navigation-next " aria-label="Next page: ssh--了解"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
